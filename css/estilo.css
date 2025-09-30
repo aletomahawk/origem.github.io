@@ -34,3 +34,31 @@ footer p a {
      width: 100%;
      position: absolute;
    }
+
+
+.hero-section {
+    background-image: url("../img/19-IMG_8141.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh; /* Ocupa a altura total da janela do navegador */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Para escurecer a imagem e melhorar a leitura do texto */
+  .hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Cor preta com 50% de opacidade */
+  }
+
+  .titulo-descido {
+    margin-top: 600px;
+  }
